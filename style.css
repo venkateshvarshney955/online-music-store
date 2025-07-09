@@ -1,0 +1,240 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 10px 20px;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+}
+
+.title {
+    font-size: 24px;
+    color: white;
+    margin-left: 10px;
+}
+
+.menu-item {
+    font-size: 16px;
+    color: white;
+    margin-left: 20px;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    color: rgb(147, 222, 228);
+    background-color: rgb(147, 222, 228);
+    
+}
+
+.search-bar {
+    border: none;
+    outline: none;
+    padding: 5px;
+}
+
+.search-button {
+    background-color: rgb(147, 222, 228);
+    border: none;
+    cursor: pointer;
+}
+
+.search-button i {
+    font-size: 16px;
+}
+
+.fa-bell {
+    font-size: 24px;
+    color: white;
+    margin-left: 20px;
+}
+
+.profile-picture {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+.im1{
+    padding: 5px;
+    padding-left: 5px;
+    padding-top: 40px;
+    justify-content: center;
+}
+.container {
+    display: grid;
+    
+    grid-template-columns: 300px 300px 300px ;
+    grid-template-rows: 140px 140px 140px ;
+    
+    /* padding: 20px; */
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.release {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.album-cover {
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+}
+
+.details {
+    flex-grow: 1;
+}
+
+.song-title {
+    font-size: 16px;
+    margin: 0;
+}
+
+.release-date {
+    font-size: 14px;
+    color: #999;
+    margin: 5px 0 0 0;
+}
+
+
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+.containers {
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.artists-section, .categories-section, .latest-release-section, .queue-section {
+    margin-bottom: 20px;
+}
+
+.artists-section {
+    flex: 1 1 100%;
+}
+
+.categories-section {
+    flex: 1 1 100%;
+    margin-top: 20px;
+}
+
+.latest-release-section {
+    flex: 1 1 60%;
+}
+
+.queue-section {
+    /* flex: 1 1 30%;
+    margin-left: 20px; */
+    display: flex;
+    flex: 1 1 30%;
+    margin-left: 60px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.artists, .categories, .latest-release {
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* float: auto; */
+   
+}
+.queue-ad{
+    display: inline;
+    margin-top: -1530px;
+     margin-left: 963px;
+   
+}
+.queue{
+      margin-top: -33px;
+       margin-left: 950px;
+     
+}
+
+
+.artist, .category, .release, .queue-item {
+    margin: 10px;
+    text-align: center;
+}
+
+.artist img, .queue-item img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.category {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.release img {
+    width: 100px;
+    height: 100px;
+}
+
+.release p {
+    margin: 5px 0 0;
+}
+
+.queue-item {
+    display: flex;
+    align-items: center;
+    width: 170%;
+}
+
+.queue-item .number {
+    margin-right: 20px;
+}
+
+.queue-item .queue-cover {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.queue-item .queue-details {
+    flex-grow: 1;
+}
+
+.queue-item .heart {
+    margin-left: 10px;
+    cursor: pointer;
+}
